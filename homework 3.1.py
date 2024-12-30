@@ -7,5 +7,8 @@ elif diya == "*":
      print (number1 * number2)
 elif diya == "-":
      print (number1 - number2)
-elif diya == "//" or "/":
-     print (number1 // number2)
+elif diya == "/":
+     if number2 != 0:
+        print (number1 / number2)
+     else:
+         print("Помилка")
