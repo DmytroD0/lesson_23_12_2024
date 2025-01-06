@@ -1,4 +1,5 @@
-list1 = [1, 2, 3, 5, 6]
+list1 = []
 if len(list1) > 0:
     list1.insert(0, list1.pop())
+else:
     print(list1)
